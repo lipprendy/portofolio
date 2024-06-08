@@ -45,9 +45,18 @@ const Navbar = () => {
         <div className="text-2xl font-bold text-gray-800 uppercase">Renn</div>
       </div>
       <div className="m-8 flex gap-4 items-center justify-center text-2xl">
-        <FaInstagram/>
-        <FaLinkedin/>
-        <FaGithub/>
+        <a
+          href="https://www.instagram.com/freakperson333?igsh=cGR6aTgyeTVncjVt"
+          target="_blank"
+        >
+          <FaInstagram />
+        </a>
+        <a href="https://github.com/lipprendy" target="_blank">
+          <FaGithub />
+        </a>
+        <a href="">
+          <FaLinkedin />
+        </a>
       </div>
     </nav>
   );
