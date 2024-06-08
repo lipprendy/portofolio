@@ -49,11 +49,11 @@ const index = () => {
             >
               <h6 className="font-bold">Landing Page Car </h6>
               <p className="text-gray-900">
-                "A modern and interactive car dealership landing page featuring
+                `A modern and interactive car dealership landing page featuring
                 a sleek design, comprehensive car listings, detailed car
                 profiles, and seamless user experience. The landing page
                 includes an advanced search functionality to filter cars by
-                make, model, price, and other specifications."
+                make, model, price, and other specifications.`
               </p>
               <div className="space-x-4 mt-7">
                 <span className="rounded px-2 py-1 bg-gray-700 text-sm font-medium text-white">
@@ -92,9 +92,9 @@ const index = () => {
             >
               <h6 className="font-bold">Landing Page Travel</h6>
               <p className="text-gray-900">
-                "A captivating and fully functional travel landing page designed
+                `A captivating and fully functional travel landing page designed
                 to inspire and facilitate travel planning. This landing page
-                features stunning visuals, comprehensive destination guides"
+                features stunning visuals, comprehensive destination guides`
               </p>
               <div className="space-x-4 mt-7">
                 <span className="rounded px-2 py-1 bg-gray-700 text-sm font-medium text-white">
