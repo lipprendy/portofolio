@@ -6,7 +6,7 @@ import { TbBrandNextjs } from 'react-icons/tb';
 import { FaSass } from 'react-icons/fa6';
 import { motion } from 'framer-motion';
 
-const iconVariants = (duration: any) => ({
+const iconVariants = (duration) => ({
   initial: {y: -7},
   animate: {
     y: [7, -7],
