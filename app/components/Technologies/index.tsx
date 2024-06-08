@@ -4,9 +4,9 @@ import React from 'react';
 import { RiReactjsLine, RiTailwindCssFill } from 'react-icons/ri';
 import { TbBrandNextjs } from 'react-icons/tb';
 import { FaSass } from 'react-icons/fa6';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 
-const iconVariants = (duration) => ({
+const iconVariants = (duration: number) : Variants => ({
   initial: {y: -7},
   animate: {
     y: [7, -7],
